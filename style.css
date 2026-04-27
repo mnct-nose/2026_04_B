@@ -1,11 +1,17 @@
-html, body {
-  height: 100%;
-  margin: 0;
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #111;
+  color: white;
 }
 
-body {
-  background-image: url("images/hanabi.jpg");
-  background-size: cover;        /* 画面いっぱいに広げる */
-  background-position: center;   /* 中央に配置 */
-  background-repeat: no-repeat;  /* 繰り返さない */
+button {
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+a {
+  color: lightblue;
 }
