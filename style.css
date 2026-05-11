@@ -19,3 +19,32 @@ a {
 =======
 }
 >>>>>>> branch-test
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("hanabigazou.jpg");
+    background-size: cover;      /* 画面いっぱい */
+    background-position: center; /* 中央 */
+    background-repeat: no-repeat;/* 繰り返さない */
+
+    opacity: 0.4;   /* 透過 */
+    z-index: -1;
+}
+
+/* 見やすくする */
+h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    border-radius: 10px;
+
+}
