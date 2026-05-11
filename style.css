@@ -14,11 +14,7 @@ button {
 
 a {
   color: lightblue;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> branch-test
 
 body::before{
     content: "";
